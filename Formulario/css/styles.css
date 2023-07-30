@@ -1,6 +1,6 @@
 /*
 Paleta de colores 
-#595958, #BFA87E, #F2E1C2, #A68C6D, #0D0D0D, #f2f2f2
+#595958, #4B3CFA, #F2E1C2, #A68C6D, #0D0D0D, #f2f2f2
 */
 *{
     margin: 0;
@@ -15,8 +15,8 @@ body{
 .container_header{
     width: 100%;
     height: 41%;
-    background: #BFA87E;
-    background-image: linear-gradient(10deg, #f2e1c2d0, #a68c6d94,#bfa87e8e),url(../img/faith-g53171e84d_1280.jpg) ;
+    background: #4B3CFA;
+    background-image: linear-gradient(10deg, #3555DE, #4795F5,#4B3CFA8e);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -34,12 +34,12 @@ body{
     text-decoration: none;
 }
 hr{
-    border-color: #f2e1c285;
+    border-color: #35AEDE;
 }
 .menu > li{
     display: inline-block;
     padding: 1.2% 2.2%;
-    background: #A68C6D;
+    background: #4795F5;
     margin-top: 1%;
     margin-bottom: 2%;
     border-radius: 10px;
@@ -47,11 +47,11 @@ hr{
     font-size: 20px;
 }
 .menu >li:hover{
-    background-color: #BFA87E;
+    background-color: #4B3CFA;
     border: 2px solid #595958;
 }
 .menu .btn_contacto{
-    background-color:#BFA87E;
+    background-color:#4B3CFA;
     border: 3px solid #595958;
 }
 .title{
@@ -71,8 +71,8 @@ hr{
 }
 .fm_contact > hr{
     margin-bottom: 3%;
-    background-color: #F2E1C2;
-    border: 2% solid #F2E1C2;
+    background-color: #3CF7FA;
+    border: 2% solid #3CF7FA;
 }
 .title_form{
     margin: 2% 0;
@@ -112,7 +112,7 @@ input:focus, .msn:focus{
     width: 30%;
     margin-top: 3%;
     padding: 10px 20px;
-    background: #A68C6D;
+    background: #35AEDE ;
     border-radius: 10px;
     font-size: 20px;
     border: 3px solid #595958;
@@ -121,7 +121,7 @@ input:focus, .msn:focus{
 }
 
 .btn_enviar:hover{
-    background-color: #BFA87E;
+    background-color: #4B3CFA;
     text-decoration: underline;
     transition: .7s;
 }
@@ -134,7 +134,7 @@ input:focus, .msn:focus{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: baseline;
-    background-image: linear-gradient(10deg,  #BFA87E,#948362a2, #A68C6D 60%);
+    background-image: linear-gradient(10deg, #3555DE, #4795F5,#4B3CFA8e);
 }
 
 .foot{
@@ -223,12 +223,12 @@ input:focus, .msn:focus{
 .alerta{
     width: 30%;
     height: auto;
-     background:  #BFA87E;
+     background:  #4B3CFA;
      position: fixed;
      top: calc(100vh - 65%);
      left: calc(100vw - 65%);
      text-align: center;
-      border: 2px solid #A68C6D;
+      border: 2px solid #35AEDE;
       padding: 5px;
 } 
 
@@ -245,7 +245,7 @@ input:focus, .msn:focus{
     height: auto;
     margin-right: 1% ;
     margin-bottom: 3%;
-    background: #A68C6D;
+    background: #35AEDE;
     border: none;
     border-radius: 8px;
     font-size: 14px;
@@ -262,7 +262,7 @@ input:focus, .msn:focus{
     color: #f2f2f2;
     font-size: 22px;
     border-radius: 10px;
-    background-color: #A68C6D;
+    background-color: #35AEDE;
     text-align: center;
     width: 70%;
 }
