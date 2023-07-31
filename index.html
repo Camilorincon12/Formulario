@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>¿Quieres ser mi amigo?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #671414;
+        }
+        h1 {
+            color: #800000;
+        }
+        #form-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #bf3434;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="number"], textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #f38888;
+            border-radius: 5px;
+            resize: none;
+        }
+        input[type="submit"] {
+            width: 100%;
+            background-color: #800000;
+            color: #f36363;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #006666;
+        }
+    </style>
+</head>
+<body>
+    <div id="form-container">
+        <h1>¡Hola!</h1>
+        <h1>¿Quieres ser mi amigo?</h1>
+        <p>Mi nombres es Camilo y estoy buscando amigos con los cuales pueda beber, disfrutar de la vida y no limitarnos a solo hablar sino salir, no se preocupe si no tiene pa las polas yo las gasto </p>
+        <p>Entonces que dices, ya es tu desicion pero por si acaso aca tienes la encuesta par apoder ser mia migpy conocerte un poco</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre...">
+            
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required placeholder="Tu edad...">
+            
+            <label for="gustos">Cuéntame sobre tus gustos:</label>
+            <textarea id="gustos" name="gustos" rows="4" required placeholder="¿Qué te gusta hacer?"></textarea>
+            
+            <label for="musica">¿Qué tipo de música te gusta?</label>
+            <input type="text" id="musica" name="musica" required placeholder="Tu música favorita...">
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
